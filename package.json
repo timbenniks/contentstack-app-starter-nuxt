@@ -1,0 +1,28 @@
+{
+  "name": "contentstack-app-starter-nuxt",
+  "version": "0.0.1",
+  "private": false,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timbenniks/contentstack-app-starter-nuxt"
+  },
+  "description": "contentstack-app-starter-nuxt",
+  "author": "Tim Benniks <tbenniks@gmail.com>",
+  "homepage": "https://timbenniks.dev",
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@contentstack/app-sdk": "^2.1.1",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "nuxt": "^3.14.1592",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
